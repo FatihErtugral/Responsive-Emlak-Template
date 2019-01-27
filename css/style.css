@@ -146,7 +146,16 @@ body,main{
     }
     .productTitle{
         display: none;
-    }  
+    } 
+    .logo1{
+        height:60px;
+    }
+    .logo1 >img{
+        height:50px;
+    }
+    .logoMsj{
+        font-size: 25px;
+    } 
 }
 /* Small devices (landscape phones, 576px and up) sm*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -156,6 +165,15 @@ body,main{
     }
     .productTitle{
         display: none;
+    }
+    .logo1{
+        height:60px;
+    }
+    .logo1 >img{
+        height:50px;
+    }
+    .logoMsj{
+        font-size: 25px;
     }
  }
 
@@ -167,6 +185,15 @@ body,main{
      }
     .productTitle{
         display: none;
+    }
+    .logo1{
+        height:60px;
+    }
+    .logo1 >img{
+        height:50px;
+    }
+    .logoMsj{
+        font-size: 25px;
     }
 }
 
